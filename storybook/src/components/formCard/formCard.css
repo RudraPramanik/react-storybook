@@ -1,0 +1,29 @@
+
+
+.form__card{
+    background: white;
+    box-shadow: rgba(73, 71, 71, 0.4) 0px 8px 18px;
+    padding: 50px;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top:80px;
+}
+
+
+.wraper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.large{
+    grid-column: span 12;
+}
+
+.medium{
+   grid-column: span 8;
+}
+.small{
+  grid-column: span 4;
+}
